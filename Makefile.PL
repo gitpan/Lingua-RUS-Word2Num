@@ -12,7 +12,6 @@ my %WriteMakefileArgs = (
   "ABSTRACT" => "Lingua::RUS::Word2Num is module for converting text containing number representation in Russian back into number. Converts whole numbers from 0 up to 999 999 999.",
   "AUTHOR" => "PetaMem s.r.o. <info\@petamem.com>",
   "BUILD_REQUIRES" => {
-    "PMLIB::Test" => 0,
     "Test::More" => 0
   },
   "CONFIGURE_REQUIRES" => {
@@ -30,7 +29,7 @@ my %WriteMakefileArgs = (
     "utf8" => 0,
     "warnings" => 0
   },
-  "VERSION" => "0.044",
+  "VERSION" => "0.0484",
   "test" => {
     "TESTS" => "t/*.t"
   }

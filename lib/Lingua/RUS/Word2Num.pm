@@ -16,7 +16,7 @@ use Parse::RecDescent;
 # }}}
 # {{{ variable declarations
 
-my($ver)      = ('$Rev: 440 $' =~ m{(\d+)}xms);
+my($ver)      = ('$Rev: 484 $' =~ m{(\d+)}xms);
 our $VERSION = $ver / 10_000;
 my  $parser  = ru_numerals();
 
@@ -159,12 +159,13 @@ Lingua::RUS::Word2Num
 
 =head1 VERSION
 
-version 0.044
+version 0.0484
 
-text to positive number convertor for Russian.
+Text to positive number convertor for Russian.
+
 Input text must be encoded in utf-8.
 
-=head2 $Rev: 440 $
+=head2 $Rev: 484 $
 
 ISO 639-3 namespace.
 

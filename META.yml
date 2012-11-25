@@ -3,7 +3,6 @@ abstract: 'Lingua::RUS::Word2Num is module for converting text containing number
 author:
   - 'PetaMem s.r.o. <info@petamem.com>'
 build_requires:
-  PMLIB::Test: 0
   Test::More: 0
   perl: v5.10.1
 configure_requires:
@@ -22,4 +21,4 @@ requires:
   strict: 0
   utf8: 0
   warnings: 0
-version: 0.044
+version: 0.0484
