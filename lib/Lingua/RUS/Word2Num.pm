@@ -1,7 +1,7 @@
 # For Emacs: -*- mode:cperl; mode:folding; coding:utf-8 -*-
 
 package Lingua::RUS::Word2Num;
-# ABSTRACT: Lingua::RUS::Word2Num is module for converting text containing number representation in Russian back into number. Converts whole numbers from 0 up to 999 999 999.
+# ABSTRACT: Word 2 number conversion in RUS.
 
 # {{{ use block
 
@@ -16,8 +16,7 @@ use Parse::RecDescent;
 # }}}
 # {{{ variable declarations
 
-my($ver)      = ('$Rev: 484 $' =~ m{(\d+)}xms);
-our $VERSION = $ver / 10_000;
+our $VERSION = 0.0577;
 my  $parser  = ru_numerals();
 
 # }}}
@@ -159,13 +158,13 @@ Lingua::RUS::Word2Num
 
 =head1 VERSION
 
-version 0.0484
+version 0.0577
 
 Text to positive number convertor for Russian.
 
 Input text must be encoded in utf-8.
 
-=head2 $Rev: 484 $
+=head2 $Rev: 577 $
 
 ISO 639-3 namespace.
 
@@ -178,6 +177,8 @@ ISO 639-3 namespace.
  print defined($num) ? $num : "sorry, can't convert this text into number.";
 
 =head1 DESCRIPTION
+
+Word 2 number conversion in RUS.
 
 Lingua::RUS::Word2Num is module for converting text containing number
 representation in Russian back into number. Converts whole numbers
