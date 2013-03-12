@@ -5,6 +5,8 @@ package Lingua::RUS::Word2Num;
 
 # {{{ use block
 
+use 5.10.1;
+
 use strict;
 use warnings;
 
@@ -16,7 +18,7 @@ use Parse::RecDescent;
 # }}}
 # {{{ variable declarations
 
-our $VERSION = 0.0577;
+our $VERSION = 0.0682;
 my  $parser  = ru_numerals();
 
 # }}}
@@ -158,13 +160,13 @@ Lingua::RUS::Word2Num
 
 =head1 VERSION
 
-version 0.0577
+version 0.0682
 
 Text to positive number convertor for Russian.
 
 Input text must be encoded in utf-8.
 
-=head2 $Rev: 577 $
+=head2 $Rev: 682 $
 
 ISO 639-3 namespace.
 
